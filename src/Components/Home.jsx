@@ -4,10 +4,10 @@ import backgroundImage from '../Data/home.jpeg'
 export default function Home() {
   return (
     <div>
-        <div className='bg-cover h-[218px] w-full md:h-[448px] lg:h-[700px] ' style={{ backgroundImage: `url(${backgroundImage})` }}>
-        <div className='lg:pt-72 lg:pl-12'>
-        <div className='bg-gradient-to-br from-[#1CBDDD] to-[#4DCA79] lg:p-2 lg:w-[580px] xl:w-[630px] h-[306px]  hidden lg:block'> 
-        <p className='text-[36px] md:text-[48px] font-[700] text-white leading-[48px]  tracking-[-2%]  text-start pt-4 pl-4 pr-4  '>We crush your competitors, goals, and sales records - without the B.S.</p>
+        <div className='bg-cover h-[218px] w-full md:h-[500px] lg:h-[900px]   ' style={{ backgroundImage: `url(${backgroundImage})` }}>
+        <div className='lg:pt-[460px] lg:pl-52'>
+        <div className='bg-gradient-to-br from-[#1CBDDD] to-[#4DCA79] lg:p-2 lg:w-[500px] xl:w-[510px] h-auto  hidden lg:block '> 
+        <p className='text-[36px] md:text-[38px] font-[700] text-white leading-[38px]    text-start pt-4 pl-4 pr-4  '>We crush your competitors, goals, and sales records - without the B.S.</p>
         <div className='text-start pl-[20px] pt-[20px] lg:pb-2 '><button className='bg-[#F28D35] w-[214px] h-[38px] rounded text-[14px] text-white font-bold leading-[14PX] tracking-[-2%] '>GET FREE CONSULTATION</button></div>
         </div>
         </div>

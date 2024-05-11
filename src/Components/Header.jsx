@@ -30,7 +30,7 @@ export default function Header() {
   }
 
   return (
-    <div className=" w-full h-[77px]  bg-[#6b3cc9]  pt-4  fixed ">
+    <div className=" w-full h-[60px]  bg-[#6b3cc9]  pt-2 pb-2  fixed ">
       <div className=" w-11/12 md:w-10/12  flex items-center justify-between mx-auto py-[5px]">
         <img src={header} className=" h-8 sm:h-10 object-cover" alt="img" />
         <div className=" hidden sm:block">

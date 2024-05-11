@@ -4,54 +4,54 @@ import { LuTally1 } from "react-icons/lu";
 
 export default function Footer() {
   return (
-    <div className='bg-[#6B3CC9]  text-white text-start p-4 md:p-16  lg:pl-36 lg:pr-36 lg:pt-0'>
-        <div className='lg:flex lg:flex-cols lg: justify-normal   '> 
-        <div className='   lg:w-auto   '>
-        <img src={header} className=" h-8 sm:h-10 object-cover lg:mt-12" alt="img" />
-        <p className=' text-[16px]  pt-2'>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results</p>
+    <div className="bg-[#6B3CC9]  text-white text-start px-5  lg:pt-0 ">
+      <div className="md:flex   gap-10  w-11/12 md:w-10/12  mx-auto py-10  ">
+        <div className=" w-full pr-4 leading-5 md:w-1/2 lg:pr-20 sm:pr-10  ">
+          <img src={header} className=" h-8 sm:h-10 object-cover" alt="img" />
+          <p className=" text-[16px]  pt-2">
+            Your goal is our target. Not anything in between. We use online
+            marketing platforms and tools to achieve single objective - your
+            business results
+          </p>
         </div>
 
-        <div className='md:grid md:grid-cols-2 md:gap-2   '>
-        <div className='lg:w-auto  '>
-        <h3 className='text-[21px] pt-14'>Our Technologies</h3>
-        <div className='text-[14px] flex-col  '>
-        <p className='pb-4 pt-4'>ReactJS</p>
-        <p>Gatsby</p>
-        <p className='pb-4 pt-4'>NextJS</p>
-        <p>NodeJS</p>
+        <div className=" sm:flex w-full md:w-1/2  md:justify-around mt-10 md:mt-0  gap-16">
+          <div className="  ">
+            <h3 className="text-[21px] cursor-default">Our Technologies</h3>
+            <div className="text-[14px] space-y-2 mt-2">
+              <p className=" cursor-pointer">ReactJS</p>
+              <p className=" cursor-pointer">Gatsby</p>
+              <p className=" cursor-pointer">NextJS</p>
+              <p className=" cursor-pointer">NodeJS</p>
+            </div>
+          </div>
+
+          <div className="">
+            <h3 className="text-[21px] mt-6 sm:mt-0 cursor-default">
+              Our Services
+            </h3>
+            <div className="text-[14px]  space-y-2 mt-2 ">
+              <p className=" cursor-pointer ">Social media Marketing</p>
+              <p className=" cursor-pointer ">Web & Mobile App Development</p>
+              <p className=" cursor-pointer ">Data & Analytics</p>
+            </div>
+          </div>
         </div>
-        </div>
-        
-        <div className='lg:w-auto '>
-        <h3 className='text-[21px] pt-14'>Our Services</h3>
-        <div className='text-[14px] flex-col  '>
-        <p className='pb-4 pt-4'>Social media Marketing</p>
-        <p>Web & Mobile App Development</p>
-        <p className='pt-4  pb-14'>Data & Analytics</p>
-        </div>
-        </div>
-        </div>
-        </div>
+      </div>
 
-      
+      <div className="">
+        <center>
+          <hr className="bg-white lg:w-3/6"></hr>
+        </center>
+      </div>
 
-        <div>
-          <hr className='bg-white '></hr>
-        </div>
-
-
-        <div className='flex justify-center  '>
-          <p className='pt-3'>Privacy Policy</p>
-          <p className='pl-4 text-2xl pt-2'><LuTally1 className='text-white mt-1' /></p>
-          <p className='pt-3'>Terms & Conditions</p>
-
-        </div>
-       
-
-
-
-
-
+      <div className="flex justify-center items-end pb-2  ">
+        <p className=" cursor-pointer">Privacy Policy</p>
+        <p className="pl-4 text-2xl cursor-default">
+          <LuTally1 className="text-white mt-1" />
+        </p>
+        <p className="  cursor-pointer">Terms & Conditions</p>
+      </div>
     </div>
-  )
+  );
 }
